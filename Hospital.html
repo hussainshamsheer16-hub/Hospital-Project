@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediPro | Advanced Healthcare Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600 flex items-center gap-2">
+                <i class="fas fa-hospital-user"></i> MediPro
+            </div>
+            <div class="hidden lg:flex space-x-6 font-medium text-sm">
+                <a href="#home" class="hover:text-blue-600">Home</a>
+                <a href="#about" class="hover:text-blue-600">About</a>
+                <a href="#services" class="hover:text-blue-600">Services</a>
+                <a href="#doctors" class="hover:text-blue-600">Doctors</a>
+                <a href="#departments" class="hover:text-blue-600">Depts</a>
+                <a href="#patients" class="hover:text-blue-600">Patients</a>
+                <a href="#research" class="hover:text-blue-600">Research</a>
+                <a href="#careers" class="hover:text-blue-600">Careers</a>
+                <a href="#blog" class="hover:text-blue-600">Blog</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition">Emergency</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="relative h-screen flex items-center justify-center bg-slate-900 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1920&q=80" class="absolute inset-0 w-full h-full object-cover opacity-40" alt="Hospital">
+        <div class="relative z-10 text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">Exceptional Care <br><span class="text-blue-400">For Every Patient</span></h1>
+            <p class="text-slate-200 text-lg max-w-2xl mx-auto mb-8">Pioneering medical breakthroughs and providing compassionate care since 1995.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#contact" class="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700">Book Appointment</a>
+                <a href="#services" class="bg-white text-slate-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-slate-100">Our Services</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-24 max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=800&q=80" class="rounded-2xl shadow-2xl" alt="Medical Technology">
+            <div>
+                <h2 class="text-blue-600 font-bold tracking-widest uppercase mb-2">Our Mission</h2>
+                <h3 class="text-4xl font-bold mb-6">A Legacy of Health and Innovation</h3>
+                <p class="text-slate-600 mb-6 leading-relaxed">MediPro is a leading multi-specialty hospital dedicated to providing high-quality healthcare using cutting-edge technology. Our team of 500+ specialists works tirelessly to ensure your recovery is swift and comfortable.</p>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3"><i class="fas fa-check-circle text-blue-500"></i> Accredited by World Health Org.</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-check-circle text-blue-500"></i> 24/7 Advanced Emergency Ward</li>
+                    <li class="flex items-center gap-3"><i class="fas fa-check-circle text-blue-500"></i> Robotic Surgery Assistance</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-12">Core Medical Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-2xl mx-auto mb-6"><i class="fas fa-heartbeat"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Cardiology</h4>
+                    <p class="text-slate-600">Advanced heart monitoring and surgical interventions by world-class cardiologists.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-2xl mx-auto mb-6"><i class="fas fa-brain"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Neurology</h4>
+                    <p class="text-slate-600">Treating complex disorders of the nervous system with precision and care.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-red-100 text-red-600 rounded-full flex items-center justify-center text-2xl mx-auto mb-6"><i class="fas fa-baby"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Pediatrics</h4>
+                    <p class="text-slate-600">Comprehensive health services for infants, children, and adolescents.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="doctors" class="py-24 max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Meet Our Specialists</h2>
+        <div class="grid md:grid-cols-4 gap-6">
+            <div class="text-center group">
+                <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80" class="w-48 h-48 rounded-full mx-auto object-cover mb-4 border-4 border-white shadow-lg group-hover:border-blue-500 transition">
+                <h4 class="font-bold text-lg">Dr. James Wilson</h4>
+                <p class="text-blue-600 text-sm">Chief Surgeon</p>
+            </div>
+            <div class="text-center group">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80" class="w-48 h-48 rounded-full mx-auto object-cover mb-4 border-4 border-white shadow-lg group-hover:border-blue-500 transition">
+                <h4 class="font-bold text-lg">Dr. Sarah Chen</h4>
+                <p class="text-blue-600 text-sm">Cardiologist</p>
+            </div>
+            <div class="text-center group">
+                <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=400&q=80" class="w-48 h-48 rounded-full mx-auto object-cover mb-4 border-4 border-white shadow-lg group-hover:border-blue-500 transition">
+                <h4 class="font-bold text-lg">Dr. Emily Blunt</h4>
+                <p class="text-blue-600 text-sm">Oncologist</p>
+            </div>
+            <div class="text-center group">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80" class="w-48 h-48 rounded-full mx-auto object-cover mb-4 border-4 border-white shadow-lg group-hover:border-blue-500 transition">
+                <h4 class="font-bold text-lg">Dr. Michael Ross</h4>
+                <p class="text-blue-600 text-sm">Neurologist</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="departments" class="py-24 bg-blue-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-4xl font-bold mb-6">Our Departments</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-4 border border-blue-400 rounded-lg hover:bg-blue-500 cursor-pointer">Radiology</div>
+                    <div class="p-4 border border-blue-400 rounded-lg hover:bg-blue-500 cursor-pointer">Dental Clinic</div>
+                    <div class="p-4 border border-blue-400 rounded-lg hover:bg-blue-500 cursor-pointer">Pathology</div>
+                    <div class="p-4 border border-blue-400 rounded-lg hover:bg-blue-500 cursor-pointer">Physical Therapy</div>
+                    <div class="p-4 border border-blue-400 rounded-lg hover:bg-blue-500 cursor-pointer">Dermatology</div>
+                    <div class="p-4 border border-blue-400 rounded-lg hover:bg-blue-500 cursor-pointer">Eye Care</div>
+                </div>
+            </div>
+            <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80" class="rounded-xl" alt="Department Lab">
+        </div>
+    </section>
+
+    <section id="patients" class="py-24 max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-12">Patient Information</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="border-l-4 border-blue-600 pl-6">
+                <h4 class="font-bold text-xl mb-2">Visiting Hours</h4>
+                <p>Mon - Fri: 09:00 AM - 08:00 PM</p>
+                <p>Sat - Sun: 10:00 AM - 04:00 PM</p>
+            </div>
+            <div class="border-l-4 border-blue-600 pl-6">
+                <h4 class="font-bold text-xl mb-2">Insurance</h4>
+                <p>We accept all major global health insurance providers including BlueCross, Aetna, and Cigna.</p>
+            </div>
+            <div class="border-l-4 border-blue-600 pl-6">
+                <h4 class="font-bold text-xl mb-2">Pharmacy</h4>
+                <p>24/7 In-house pharmacy available for patients and out-patients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row gap-12">
+            <div id="research-info" class="flex-1">
+                <h2 class="text-3xl font-bold mb-6">Medical Research</h2>
+                <p class="text-slate-400 mb-6">We invest $2M+ annually in clinical trials and genetic research to find cures for chronic diseases.</p>
+                <a href="#" class="text-blue-400 hover:underline">View Publications →</a>
+            </div>
+            <div id="careers" class="flex-1 p-8 bg-slate-800 rounded-xl">
+                <h2 class="text-3xl font-bold mb-6">Join Our Team</h2>
+                <p class="text-slate-400 mb-4">Are you a healthcare professional? We are hiring Surgeons, Nurses, and Lab Techs.</p>
+                <button class="bg-blue-600 px-6 py-2 rounded font-bold">Apply Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="py-24 max-w-7xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-12">Health Tips & News</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="text-left">
+                <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG51dHJpdGlvbnxlbnwwfHwwfHx8MA%3D%3D" class="rounded-lg mb-4 h-48 w-full object-cover">
+                <span class="text-blue-600 text-xs font-bold uppercase">Nutrition</span>
+                <h4 class="font-bold text-lg mt-2">10 Foods to Boost Your Immune System</h4>
+            </div>
+            <div class="text-left">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&q=80" class="rounded-lg mb-4 h-48 w-full object-cover">
+                <span class="text-blue-600 text-xs font-bold uppercase">Exercise</span>
+                <h4 class="font-bold text-lg mt-2">Daily Habits for a Stronger Heart</h4>
+            </div>
+            <div class="text-left">
+                <img src="https://images.unsplash.com/photo-1445510861639-5651173bc5d5?auto=format&fit=crop&w=400&q=80" class="rounded-lg mb-4 h-48 w-full object-cover">
+                <span class="text-blue-600 text-xs font-bold uppercase">Mental Health</span>
+                <h4 class="font-bold text-lg mt-2">Coping with Stress in the Modern Era</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-slate-100">
+        <div class="max-w-4xl mx-auto px-4 bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+            <div class="p-12 bg-blue-600 text-white md:w-1/3">
+                <h3 class="text-2xl font-bold mb-4">Contact Info</h3>
+                <p class="mb-4"><i class="fas fa-phone mr-2"></i> +1 (234) 567 890</p>
+                <p class="mb-4"><i class="fas fa-envelope mr-2"></i> help@medipro.com</p>
+                <p class="mb-4"><i class="fas fa-map-marker-alt mr-2"></i> 45 Health St, Wellness City</p>
+            </div>
+            <div class="p-12 flex-1">
+                <h3 class="text-2xl font-bold mb-6">Schedule Consultation</h3>
+                <form class="space-y-4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <input type="text" placeholder="First Name" class="w-full p-3 border rounded-lg">
+                        <input type="text" placeholder="Last Name" class="w-full p-3 border rounded-lg">
+                    </div>
+                    <input type="email" placeholder="Email Address" class="w-full p-3 border rounded-lg">
+                    <select class="w-full p-3 border rounded-lg">
+                        <option>Select Specialist</option>
+                        <option>Dr. James Wilson</option>
+                        <option>Dr. Sarah Chen</option>
+                    </select>
+                    <textarea placeholder="Message" class="w-full p-3 border rounded-lg h-32"></textarea>
+                    <button class="w-full bg-blue-600 text-white py-4 rounded-lg font-bold">Send Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+   <footer class="bg-slate-950 text-slate-400 pt-20 pb-10 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+            
+            <div class="space-y-6">
+                <div class="text-3xl font-bold text-white flex items-center gap-2">
+                    <span class="bg-blue-600 p-2 rounded-lg text-white">
+                        <i class="fas fa-hospital-user text-xl"></i>
+                    </span>
+                    MediPro
+                </div>
+                <p class="text-sm leading-relaxed">
+                    Providing world-class healthcare with a heart. Our mission is to provide accessible, high-quality medical services to our community 24/7.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-blue-400 hover:text-white transition-all duration-300">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-blue-700 hover:text-white transition-all duration-300">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-pink-600 hover:text-white transition-all duration-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-lg mb-6">Patient Resources</h4>
+                <ul class="space-y-4 text-sm">
+                    <li><a href="#" class="hover:text-blue-400 hover:translate-x-2 transition-all inline-block">Find a Doctor</a></li>
+                    <li><a href="#" class="hover:text-blue-400 hover:translate-x-2 transition-all inline-block">Online Bill Pay</a></li>
+                    <li><a href="#" class="hover:text-blue-400 hover:translate-x-2 transition-all inline-block">Patient Portal</a></li>
+                    <li><a href="#" class="hover:text-blue-400 hover:translate-x-2 transition-all inline-block">Medical Records</a></li>
+                    <li><a href="#" class="hover:text-blue-400 hover:translate-x-2 transition-all inline-block">Emergency Wait Times</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-lg mb-6">Get In Touch</h4>
+                <ul class="space-y-4 text-sm">
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-map-marker-alt text-blue-500 mt-1"></i>
+                        <span>123 Health Boulevard,<br>Wellness City, NY 10001</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-phone-alt text-blue-500"></i>
+                        <span>+1 (800) 555-0199</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-envelope text-blue-500"></i>
+                        <span>support@medipro.com</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-lg mb-6">Stay Updated</h4>
+                <p class="text-sm mb-4">Subscribe to receive health tips and hospital updates.</p>
+                <form class="flex flex-col gap-2">
+                    <input type="email" placeholder="Email Address" class="bg-slate-900 border border-slate-800 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-blue-500 transition">
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition-colors">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs tracking-wider uppercase">
+            <p>&copy; 2026 MediPro Medical Center. All rights reserved.</p>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition">Terms of Service</a>
+                <a href="#" class="hover:text-white transition">Cookie Settings</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
